@@ -104,7 +104,7 @@ main {
 
 @media (max-width: 768px) {
   .hero-content {
-    padding: 20px;
+    padding: 30px;
     gap: 8px;
     aspect-ratio: 16/9;
   }
@@ -139,8 +139,7 @@ main {
     font-size: 9px;
   }
   .buttons {
-    width: 116px;
-    height: 24.7px;
-    font-size: 0px;
+    width: 140px;
+    height: 29.8px;
   }
 }
