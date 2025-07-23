@@ -1,0 +1,146 @@
+main {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 44px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1920px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 16/6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 16px;
+  position: relative;
+}
+
+.pro {
+  background-image: url(./images/bakcground-1-black.jpg);
+}
+
+.regular {
+  background-image: url(./images/background-1-purple.jpg);
+}
+
+.gift {
+  background-image: url(./images/backgournd-1-gift.jpg);
+  justify-content: end;
+  padding-bottom: 20px;
+}
+
+.buttons {
+  width: 160px;
+  min-width: auto;
+  height: 34px;
+  min-height: auto;
+  gap: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  padding: 2px 2px 2px 2px;
+}
+
+.btnPrimary {
+  width: 60%;
+  height: 100%;
+  background-color: #0071e3;
+  color: #f5f5f7;
+  gap: 10px;
+  border-radius: 40px;
+  border: 0;
+}
+
+.btnSecondary {
+  width: 32%;
+  height: 100%;
+  min-height: auto;
+  background-color: transparent;
+  border-radius: 40px;
+  border-color: #2997ff;
+  color: #2997ff;
+}
+
+.mainTitle {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.subTitle {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.lmain {
+  color: #f5f5f7;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.lsub {
+  color: #f5f5f7;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 20px;
+    gap: 8px;
+    aspect-ratio: 16/9;
+  }
+  .mainTitle {
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .subTitle {
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  .buttons {
+    width: 140px;
+    height: 29.8px;
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-content {
+    padding: 8px;
+    gap: 4px;
+    aspect-ratio: 4/3;
+  }
+  .mainTitle {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .subTitle {
+    font-weight: 200;
+    font-size: 9px;
+  }
+  .buttons {
+    width: 116px;
+    height: 24.7px;
+    font-size: 0px;
+  }
+}
