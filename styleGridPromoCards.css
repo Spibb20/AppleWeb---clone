@@ -18,7 +18,7 @@
   align-items: center;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 40px;
   gap: 16px;
 }
 
@@ -28,6 +28,7 @@
 
 .airpods {
   background-image: url(./images/airpods-pro.jpg);
+  justify-content: flex-end;
 }
 
 .iwatch {
@@ -51,4 +52,24 @@
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
   -webkit-background-clip: text;
   color: transparent;
+  padding-top: 300px;
+}
+
+.logoTitle {
+  display: flex;
+  gap: 12px;
+}
+
+.btnEstimate {
+  width: 167px;
+  height: 40;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 390px) {
+  .cards {
+    min-width: 366px;
+  }
 }

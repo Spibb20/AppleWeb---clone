@@ -1,0 +1,67 @@
+footer {
+  width: 100%;
+  max-width: 1920px;
+  height: 330px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.footer-gallery {
+  width: 1920px;
+  min-width: auto;
+  height: 236px;
+  min-height: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.serviceImage {
+  width: 417px;
+  height: 236px;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.pilates {
+  background-image: url(./images/l1.jpg);
+}
+
+.randb {
+  background-image: url(./images/l2.jpg);
+  background-size: contain;
+  background-color: #1b2632;
+  background-position: center;
+}
+
+.nba2k25 {
+  background-image: url(./images/l3.jpg);
+}
+
+.kim {
+  background-image: url(./images/l4.jpg);
+}
+
+.pink {
+  background-image: url(./images/l5.jpg);
+}
+
+.serviceLogo {
+  max-width: 77.92px;
+  min-width: auto;
+  max-height: 13.82px;
+  min-height: auto;
+}
+
+.cardTitles {
+  color: white;
+}
