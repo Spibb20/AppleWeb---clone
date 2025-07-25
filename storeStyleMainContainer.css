@@ -1,0 +1,105 @@
+.mainContainer {
+  width: 100%;
+  max-height: 1920pxs;
+  height: 3836px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #f5f5f7cc;
+}
+
+.cardContainer {
+  width: 1920px;
+  height: 630px;
+  padding-left: 140px;
+  padding-right: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.containerTitle {
+  width: 831px;
+  height: 34px;
+  display: flex;
+  gap: 4px;
+}
+
+.conTitleFirst {
+  width: fit-content;
+  height: 34px;
+  font-weight: 700;
+  font-size: 24px;
+  background-clip: border-box;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.conTitleFollowing {
+  width: fit-content;
+  height: 34px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #6e6e73;
+  margin: 0%;
+}
+
+/*The Latest*/
+.details {
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+}
+
+.bigCards {
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.feature {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #b64400;
+}
+
+.iphone16pro {
+  background-image: url(./store-images/store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+}
+
+.applewatchseries {
+  padding-top: 50px;
+  background-image: url(./store-images/store-card-50-holiday-watch-s10-202411.png);
+}
+
+.ipadmini {
+  background-image: url(./store-images/store-card-50-holiday-ipad-mini-202411.png);
+}
+
+.macbookpro {
+  background-image: url(./store-images/store-card-50-holiday-macbook-pro-202411.png);
+}
+
+/*Personalization*/
+
+.midCards {
+  width: 400px;
+  height: 500px;
+}
