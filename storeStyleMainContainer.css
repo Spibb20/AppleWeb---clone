@@ -102,4 +102,19 @@
 .midCards {
   width: 400px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-right: 120px;
+}
+
+.p-pods {
+  background-image: url(./store-images/p-pods.jpg);
+}
+
+.smallCards {
+  width: 313px;
+  height: 500px;
 }
